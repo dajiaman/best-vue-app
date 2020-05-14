@@ -388,7 +388,6 @@ module.exports = {
     //   }
     // }
   },
-
   pluginOptions: {
 
   }

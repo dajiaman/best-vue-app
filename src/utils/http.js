@@ -6,12 +6,7 @@ import store from '@/store'
 // 用于存储目前状态为pending的请求标识
 let pendingRequest = [];
 
-
 const handleRequestIntercept = config => {
-
-
-  console.log(config);
-
 
   if(store.getters.token){
     config.headers['X-Token'] = getToken()

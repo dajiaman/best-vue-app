@@ -1,3 +1,11 @@
 <template>
-  <div>404 page</div>
+  <div class="container">404 page</div>
 </template>
+
+
+<style lang="scss">
+.container{
+  display: grid;
+}
+
+</style>
