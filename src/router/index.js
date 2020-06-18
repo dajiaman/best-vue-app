@@ -34,18 +34,17 @@ const routes = [
   {
     path: '/login',
     name: '/Login',
-    component: () => import('@/views/Login'),
+    component: () => import('@/views/Login.vue'),
   },
   {
     path: '/404',
     name: '404',
     component: () => import('@/views/404')
-  },
-  { path: '*', redirect: '/404', hidden: true }
+  }
 ]
 
 const router = new Router({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes,
 })
