@@ -2,7 +2,7 @@ export default {
   'bar': {
       namespaced: true,
       state: {
-          bar: 'foo测试'
+          a: 'foo测试'
       }
   }
 }

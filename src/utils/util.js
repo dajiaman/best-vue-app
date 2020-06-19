@@ -1,3 +1,7 @@
+/**
+ * 是否为IE
+ * @returns {boolean}
+ */
 export function isIE () {
   const bw = window.navigator.userAgent
   const compare = (s) => bw.indexOf(s) >= 0
