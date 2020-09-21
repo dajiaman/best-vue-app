@@ -23,7 +23,7 @@
 </script>
 
 
-<style lang="scss">
+<style>
   .container {
     background: #fff;
   }

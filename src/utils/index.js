@@ -1,4 +1,4 @@
-/**eslint-disable */
+/* eslint-disable */
 /**
  * 防抖
  * @param {Function} func

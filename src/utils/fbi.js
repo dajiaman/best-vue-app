@@ -1,4 +1,4 @@
-// eslint-disabled
+/* eslint-disable */
 const fbi_log = console.log.bind(console);
 fbi_log(`%c                                                                            
                                                                             

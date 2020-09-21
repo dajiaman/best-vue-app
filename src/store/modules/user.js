@@ -33,7 +33,7 @@ const actions = {
   },
 
   // get user info
-  getInfo({ commit, state }) {
+  getInfo({ commit}, state ) {
     return new Promise((resolve, reject) => {
       getInfo(state.token)
         .then((response) => {
@@ -53,16 +53,13 @@ const actions = {
   },
 
   // user logout
-  logout({ commit, state, dispatch }) {
+  logout({ commit }, state ) {
     return new Promise((resolve, reject) => {
       logout(state.token)
         .then(() => {
           commit('SET_TOKEN', '')
-
           removeToken()
-
           resolve()
-
         })
         .catch((error) => {
           reject(error)

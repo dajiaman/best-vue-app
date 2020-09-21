@@ -3,7 +3,7 @@
 </template>
 
 
-<style lang="scss">
+<style lang="less">
 .container{
   display: grid;
 }
